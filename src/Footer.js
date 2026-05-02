@@ -1,8 +1,11 @@
 import './Footer.css';
 
 function Footer() {
-    return(
-         <footer className='footer'>  © 2026 SénTransport - ESP/UCAD </footer>
-    );
+  return (
+    <footer className="footer">
+      <p>&copy; 2026 SénTransport &mdash; ESP/UCAD</p>
+    </footer>
+  );
 }
+
 export default Footer;
